@@ -32,7 +32,6 @@ import {LabelModule} from '../../../../components/label/label.module';
 import {ModalModule} from '../../../../components/modal/components/modal/modal.module';
 import {ListFilterModule} from '../../../list-filter/components/list-filter/list-filter.module';
 import {TableModule} from '../../../../components/table/table.module';
-import {ButtonModule} from "../../../../components/button/button.module";
 
 
 @NgModule({
@@ -44,7 +43,6 @@ import {ButtonModule} from "../../../../components/button/button.module";
         LabelModule,
         LoadingSpinnerModule,
         ListFilterModule,
-        ButtonModule,
     ]
 })
 export class RecordListModalModule {
